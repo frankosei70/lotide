@@ -6,3 +6,4 @@ const assertEqual = function(actual, expected) {
   }
 
 };
+assertEqual(1, 1);
