@@ -26,6 +26,8 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `function1(...)`: description
+* flatten: Given an array containing other nested arrays, it flattens it into a single-level array.
+
+
 * `function2(...)`: description
 * `function3(...)`: description
