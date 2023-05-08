@@ -25,9 +25,24 @@ This project was created and published by me as part of my learnings at Lighthou
 ## Documentation
 
 The following functions are currently implemented:
+assertArraysEqual: Asserts whether two arrays are equal
 
-* flatten: Given an array containing other nested arrays, it flattens it into a single-level array.
+* assertEqual: Asserts two primitive values are equal.
 
+* asserObjectEqual: Asserts whether two objects are equal.
 
-* `function2(...)`: description
-* `function3(...)`: description
+* countLetters: Returns an object where each unique character in a given string is a key and the value for that property should be the number of occurrences for that character.
+* countOnly: Given an array and an object, it will return an object containing counts of everything that the input object listed.
+* eqArrays: Compares the data of two arrays to check if they are equal to each other.
+* eqObjects: Compares the data of two objects to check if they are equal to each other.
+* findKey: Takes an object and a callback and return the first key for which the callback returns a truthy value. If no key is found, then it should return undefined.
+* findKeyByValue: Takes an object and a value and returns the first key which contains the given value. If no key with that given value is found, it returns undefined.
+
+* flatten: array containing other nested arrays, it flattens it into a single-level array.
+* head: Returns the first item in the array.
+* letterPositions: Returns an object containing each characters as keys and as values all the indices in the string where each character is found.
+* map: Returns a new array based on the results of the callback function.
+* middle: Returns an array with only the middle element(s) of the provided array, a single middle element for odd arrays and two middle elements for even arrays.
+* tail: Returns the "tail" of an array.
+* takeUntil: Returns a "slice of the array with elements taken from the beginning." It should keep going until the callback returns a truthy value.
+* without: Takes an array and an itemsToRemove array. It should return a new array with only the elements from source that are not present in the itemsToRemove array.
