@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@oseiwusu/lotide",
   "version": "1.0.0",
   "description": "A mini clone of the [Lodash](https://lodash.com) library.",
   "main": "head.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/frankosei70/lotide.git"
   },
-  "author": "",
+  "author": "Frank Osei-wusu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/frankosei70/lotide/issues"
