@@ -1,5 +1,9 @@
 const assert = require('chai').assert;
-const { eqObjects, shirtObject, anotherShirtObject, longSleeveShirtObject } = require('../eqObjects');
+const eqObjects = require('../eqObjects');
+
+const shirtObject = { color: "red", size: "medium" };
+const anotherShirtObject = { size: "medium", color: "red" };
+const longSleeveShirtObject = { size: "medium", color: "red", sleeveLength: "long" };
 
 describe("#head", () => {
   it("returns true for matching objects", () => {

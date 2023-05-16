@@ -20,23 +20,12 @@ const eqObjects = function(obj1, obj2) {
       // Use recursion to compare nested objects
       eqObjects(val1, val2);
     } else if (val1 !== val2) {
-      //console.log(false);
       return false;
     }
-  }
-
-  // The objects are equal if all keys and values match
+  } 
   return true;
 };
 
-const shirtObject = { color: "red", size: "medium" };
-const anotherShirtObject = { size: "medium", color: "red" };
-//eqObjects(shirtObject, anotherShirtObject); 
 
-const longSleeveShirtObject = { size: "medium", color: "red", sleeveLength: "long" };
-//eqObjects(shirtObject, longSleeveShirtObject); 
-module.exports = {
-  eqObjects,
-  shirtObject, anotherShirtObject,
-   longSleeveShirtObject
-};
+module.exports =  eqObjects;
+  

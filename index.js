@@ -13,11 +13,6 @@ const eqObjects = require('./eqObjects');
 const assertEquals= require('./assertEquals');
 const without = require('./without');
 
-
-
-
-
-
 module.exports = {
   head, 
   middle, 
